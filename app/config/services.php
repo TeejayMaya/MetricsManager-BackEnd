@@ -132,6 +132,6 @@ $di->setShared(
  * Website URL, for setting images and other media files ABSOLUTE PATHS
  */
 $di->setShared('siteurl', function () {
-    $siteurllink = "https://api.metricsmanager.com";
+    $siteurllink = "https://api.metricsmanager.co";
     return $siteurllink;
 });
